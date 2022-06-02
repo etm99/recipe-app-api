@@ -1,4 +1,5 @@
-#useful commands
+### useful commands ###
+
 #build docker
 docker-compose build
 
@@ -8,3 +9,6 @@ docker-compose run --rm app sh -c "flake8"
 
 #Create project django using docker-compose
 docker-compose run --rm app sh -c "django-admin startproject app ."
+
+#run our services 
+docker-compose up
